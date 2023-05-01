@@ -1,15 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
 
-    FILE *archivo = fopen("output.txt","w");
+    printf ("Hello, World!\n");
+    return 0;
 
-    fprintf(archivo, "Hello, World!");
-
-    fclose(archivo);
-    
-    printf("Hello, World!");
-    
-   return 0;
 }
